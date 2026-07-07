@@ -1,0 +1,4 @@
+interface:
+  display_name: "SmartDMA Code Generator"
+  short_description: "Generate SmartDMA C macro code and firmware-array workflows."
+  default_prompt: "Generate SmartDMA code for the target MCU and task."
