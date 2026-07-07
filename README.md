@@ -8,6 +8,15 @@ SmartDMA is an NXP programmable DMA engine that can execute compact instruction 
 
 SmartDMA code generation is device-specific. Correct output depends on the target MCU, package pinout, SmartDMA base address, register map, linker placement, toolchain, and whether the generated code must be integrated into a complete MCU firmware project or emitted as a standalone SmartDMA file set.
 
+## Official SmartDMA Cookbook
+
+NXP publishes the SmartDMA Cookbook as application note `AN14650`.
+
+- PDF download path: `https://www.nxp.com/docs/en/application-note/AN14650.pdf`
+- HTML documentation page: `https://docs.nxp.com/bundle/AN14650/page/topics/application_guide.html`
+
+Use the official NXP document as the source of truth before generating SmartDMA code for a specific MCU, pinout, register map, or firmware-array workflow.
+
 ## What This Skill Does
 
 The `smartdma-code-generator` skill guides an AI coding agent through NXP SmartDMA code generation with explicit research, integration, and verification gates. It helps produce:
